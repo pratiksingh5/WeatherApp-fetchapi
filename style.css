@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#e96443, #904e95);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.20 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6.5px );
+-webkit-backdrop-filter: blur( 6.5px );
+border-radius: 10px;
+}
+
+.container h1 {
+    padding: 30px 0px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.container input[type="text"] {
+    height: 45px;
+    width: 300px;
+    border: 0;
+    outline: none;
+    margin: 0 50px;
+    padding-left: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: solid 1px white;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 30px 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.showData {
+    margin: 80px 0px;
+    line-height: 1.6;
+}
+
+.showData ul {
+    list-style-type: none;
+}
+
+.showData .city {
+    font-size: 5rem;
+}
+
+.showData .temp {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.showData .desc {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
